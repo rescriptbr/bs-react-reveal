@@ -75,4 +75,4 @@ This is project is still `WIP`, but you can use all the components provided by [
 - `Custom effects`: ⚠️ - Not yet `[WIP]`
 
 ## Docs
-Check the offical [react-reveal](https://www.react-reveal.com/docs/) documentation.
+Check the official [react-reveal](https://www.react-reveal.com/docs/) documentation.
