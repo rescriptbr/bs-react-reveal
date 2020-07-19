@@ -5,7 +5,6 @@
 <p align="center">
    <a href="#installation">Installation</a> • 
    <a target="_blank" href="#usage">Basic usage</a> • 
-   <a href="#demo">Demo</a> • 
    <a href="#supported-features">Supported features</a>
 </p>
 <br/>
