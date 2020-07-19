@@ -1,6 +1,6 @@
 {
-  "name": "@vmarcosp/bs-react-reveal",
-  "version": "0.0.4",
+  "name": "@reasonbr/bs-react-reveal",
+  "version": "0.0.1",
   "author": "Marcos Oliveira <vmarcosp.pereira@gmail.com>",
   "description": "ReasonML bindings for ReactReveal",
   "main": "src/ReactReveal.re",
@@ -17,9 +17,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vmarcosp/bs-react-reveal"
+    "url": "https://github.com/reasonbr/bs-react-reveal"
   },
-  "homepage": "https://github.com/vmarcosp/bs-react-reveal",
+  "homepage": "https://github.com/reasonbr/bs-react-reveal",
   "files": [
     "src/",
     "bsconfig.json"
@@ -34,12 +34,12 @@
     "@glennsl/bs-jest": "0.5.1",
     "bs-platform": "8.1.1",
     "jest": "26.0.1",
-    "reason-react": "^0.9.1"
+    "reason-react": "0.9.1"
   },
   "peerDependencies": {
-    "reason-react": "^0.9.1"
+    "reason-react": "0.9.1"
   },
   "dependencies": {
-    "react-reveal": "^1.2.2"
+    "react-reveal": "1.2.2"
   }
 }
