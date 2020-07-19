@@ -24,7 +24,7 @@
     "reason-react": ">=0.7.0"
   },
   "devDependencies": {
-    "@vmarcosp/bs-react-reveal": "../",
+    "@reasonbr/bs-react-reveal": "0.0.1",
     "bs-platform": "^8.1.1",
     "bs-webapi": "^0.15.6",
     "concurrently": "^5.0.2",

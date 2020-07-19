@@ -19,7 +19,7 @@
   "namespace": true,
   "bs-dependencies": [
     "reason-react",
-    "@vmarcosp/bs-react-reveal"
+    "@reasonbr/bs-react-reveal"
   ],
   "bs-dev-dependencies": [],
   "ppx-flags": [],

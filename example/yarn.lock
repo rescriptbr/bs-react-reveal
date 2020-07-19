@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@reasonbr/bs-react-reveal@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@reasonbr/bs-react-reveal/-/bs-react-reveal-0.0.1.tgz#badb95371ae90231f7e990ca9bcb3ce5f6d6c31c"
+  integrity sha512-Fd/FQc+gFS3ZZbnfVMjQq/8R0Q4CDveOJ7UhmgmZ9Jvyw+5h2QpKHPNYoTIYjaobhZtCsgY02ScPYRuuIb82RA==
+  dependencies:
+    react-reveal "1.2.2"
+
 "@types/glob@^7.1.1":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.2.tgz#06ca26521353a545d94a0adc74f38a59d232c987"
@@ -29,11 +36,6 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
-
-"@vmarcosp/bs-react-reveal@../":
-  version "0.0.4"
-  dependencies:
-    react-reveal "^1.2.2"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -4193,7 +4195,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-reveal@^1.2.2:
+react-reveal@1.2.2, react-reveal@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/react-reveal/-/react-reveal-1.2.2.tgz#f47fbc44debc4c185ae2163a215a9e822c7adfef"
   integrity sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw==
