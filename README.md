@@ -71,7 +71,7 @@ This is project is still `WIP`, but you can use all the components provided by [
     - `ssrReveal`: ✅
     - `wait`: ✅
     - `onReveal`: ✅
-- `HOC's`: ⚠️ - Not yet
+- `HOC's`: ⚠️ - Not yet `[WIP]`
 - `Custom effects`: ⚠️ - Not yet `[WIP]`
 
 ## Docs
