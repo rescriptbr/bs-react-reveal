@@ -40,6 +40,27 @@ let make = () => {
 ## Status
 This is project is still `WIP`, but you can use all the components provided by [react-reveal](https://www.react-reveal.com/) with the almost all props.
 ### Supported features
+- Components:
+  - `Reveal`: ⚠️ - Not yet `[WIP]`
+  - `Fade`: ✅
+  - `Flip`: ✅
+  - `Rotate`: ✅
+  - `Zoom`: ✅
+  - `Bounce`: ✅
+  - `Slide`: ✅
+  - `Roll`: ✅
+  - `LightSpeed`: ✅
+  - `Jump`: ✅
+  - `Flash`: ✅
+  - `HeadShake`: ✅
+  - `Jello`: ✅
+  - `Pulse`: ✅
+  - `RubberBand`: ✅
+  - `Shake`: ✅
+  - `Spin`: ✅
+  - `Swing`: ✅
+  - `Tada`: ✅
+  - `Wobble`: ✅
 - Component props:
     - `duration`: ✅
     - `delay`: ✅
