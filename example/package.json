@@ -1,0 +1,49 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "description": "A short, but powerful statement about your project",
+  "author": "vscodefy",
+  "license": "MIT",
+  "homepage": "https://github.com//example",
+  "bugs": {
+    "url": "https://github.com//example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//example.git"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "ReasonReact"
+  ],
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-reveal": "^1.2.2",
+    "reason-react": ">=0.7.0"
+  },
+  "devDependencies": {
+    "@vmarcosp/bs-react-reveal": "../",
+    "bs-platform": "^8.1.1",
+    "bs-webapi": "^0.15.6",
+    "concurrently": "^5.0.2",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.1.2",
+    "terser-webpack-plugin": "^2.3.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+    "scripts": {
+    "build": "bsb -make-world && NODE_ENV=production webpack --config config/webpack.config.js && cp -n public/* build/ | true",
+    "start": "concurrently -c --kill-others 'yarn start:bsb' 'yarn start:webpack'",
+    "start:bsb": "bsb -make-world -w",
+    "start:webpack": "webpack-dev-server --config config/webpack.config.js --open",
+    "clean": "bsb -clean-world",
+    "format": "bsrefmt --in-place */**/*.re */*.re"
+  }
+}

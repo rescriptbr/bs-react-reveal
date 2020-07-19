@@ -1,0 +1,7 @@
+(Source bs-react)
+(Cfg_str project_name example)
+(Cfg_str project_slug example)
+(Cfg_str project_description"A short, but powerful statement about your project")
+(Cfg_str css_framework None)
+(Cfg_str ci_cd None)
+(Cfg_str author_name vscodefy)

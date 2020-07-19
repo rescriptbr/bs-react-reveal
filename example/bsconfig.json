@@ -1,0 +1,35 @@
+{
+  "name": "example",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+    ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "@vmarcosp/bs-react-reveal"
+  ],
+  "bs-dev-dependencies": [],
+  "ppx-flags": [],
+  "refmt": 3,
+  "warnings": {
+    "error": "+5"
+  },
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-bs-no-version-header",
+    "-open Belt"
+  ]
+}
