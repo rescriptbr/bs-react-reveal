@@ -14,7 +14,7 @@
 ## Installation
 
 ```sh
-yarn add @reasonbr/bs-react-reveal
+yarn add @reasonbr/bs-react-reveal react-reveal
 ```
 Add the package to the `bsconfig.json`
 ```json
