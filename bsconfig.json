@@ -1,6 +1,6 @@
 {
-  "name": "@vmarcosp/bs-react-reveal",
-  "version": "0.0.4",
+  "name": "@reasonbr/bs-react-reveal",
+  "version": "0.0.5",
   "reason": {
     "react-jsx": 3
   },
