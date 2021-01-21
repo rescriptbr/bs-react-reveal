@@ -1,6 +1,6 @@
 {
   "name": "@reasonbr/bs-react-reveal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Marcos Oliveira <vmarcosp.pereira@gmail.com>",
   "description": "ReasonML bindings for ReactReveal",
   "main": "src/ReactReveal.re",
