@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img src="./assets/logo.svg" width="450" /> 
+  <img src="./assets/logo.svg" width="700" /> 
 </p>
 <p align="center">
    <a href="#installation">Installation</a> • 
